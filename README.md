@@ -1,17 +1,18 @@
-# akita-energy
+![RL SM Logo TM](https://user-images.githubusercontent.com/18197505/212445034-b360b944-cedb-4b45-a2e3-cbe404277b36.png)
 
+# Roadledger-Facility
 
 ## How to Use
 
-**Still in development and testing. Unexpected errors and loss of funds may occur. Feedback is welcome!**
+**This is the Walled for the Facility being used**
 
 ## Usage
 
 ### 1. Clone repository
 
-Clone git repository from [machineeconomy/akita-energy](https://github.com/machineeconomy/akita-energy)
+Clone git repository from [cosysx/roadledger_facility](https://github.com/cosysx/roadledger_facility)
 ```bash
-git clone https://github.com/machineeconomy/akita-energy.git
+git clone https://github.com/cosysx/roadledger_facility.git
 ```
 
 ### 2. create.env
@@ -62,8 +63,8 @@ You will want to use the password generator with the following settings:
 
 ### 4. Setup energy
 
-- Insert your government provider url from [machineeconomy/akita-government](https://github.com/machineeconomy/akita-government)
-- Insert your name (example: "Wind Energy")
+- Insert your government provider url from [cosysx/roadledger_exchange](https://github.com/cosysx/roadledger_exchange)
+- Insert your name (example: "Facility1")
 - Insert an IOTA Value. (example: 2) 
 
 ### 5. Build the frontend
@@ -76,9 +77,11 @@ npm run build
 cd ..
 ```
 
-### 6. Run energy
+### 6. Run Faciltiy
 
 enter this lines in your terminal.
 ```bash
 npm start
 ```
+
+Copyright (C) 2023 CosysX.
