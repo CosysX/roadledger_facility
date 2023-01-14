@@ -1,7 +1,7 @@
 {
-  "name": "wind_energy",
+  "name": "roadledger_facility",
   "version": "0.0.1",
-  "description": "Code for AKITA Wind Energy IOTA payment",
+  "description": "Code for Road Ledger Faciltiy IOTA payment",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
