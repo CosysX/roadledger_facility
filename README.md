@@ -4,7 +4,7 @@
 
 ## How to Use
 
-**This is the Walled for the Facility being used**
+**This is the applicaiton for the Facility Wallet being used**
 
 ## Usage
 
