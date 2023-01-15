@@ -7,7 +7,7 @@
       <h1 class="title">{{balance}}</h1>
       <h3>Road Ledger Network</h3>
       <h1 class="title">{{action}}</h1>
-      <h3>Road Users Connected</h3>
+      <h3>No. of Road Users Connected</h3>
       <h1 class="title">{{total}}</h1>
     </div>
   </div>
@@ -23,10 +23,10 @@ export default {
   data() {
     return {
       payed: false,
-      name: 'Connected to Faciltiy Owener',
+      name: 'Connected',
       balance: '0 IOTA',
       action: 'ONLINE',
-      total: '1 Road User connected',
+      total: '1',
       last_tx: 'Loading'
     }
   },
