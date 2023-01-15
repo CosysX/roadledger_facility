@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <div class="left">
-      <h3>Faciltiy Owner</h3>
+      <h3>Faciltiy Status</h3>
       <h1 class="title">{{name}}</h1>
       <h3>Wallet Balance</h3>
       <h1 class="title">{{balance}}</h1>
+      <h3>UC Sent</h3>
+      <h1 class="title">{{tx}}</h1>      
       <h3>Road Ledger Network</h3>
       <h1 class="title">{{action}}</h1>
       <h3>No. of Road Users Connected</h3>
@@ -24,7 +26,8 @@ export default {
     return {
       payed: false,
       name: 'Connected',
-      balance: '0 IOTA',
+      balance: '7 Tokens',
+      tx: '3 Tokens',
       action: 'ONLINE',
       total: '1',
       last_tx: 'Loading'
