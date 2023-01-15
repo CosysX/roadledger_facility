@@ -45,7 +45,7 @@ var onPaymentSuccess = function (payment) {
     var url = process.env.PROVIDER_URL;
 
     var data = {
-        "name": "roadledger_faciltiy_payment",
+        "name": "roadledger_facility_payment",
         "description": "Pay for road use"
     }
     axios.post(url + "/payments", data)
