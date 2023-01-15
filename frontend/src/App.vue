@@ -1,12 +1,14 @@
 <template>
   <div id="app">
     <div class="left">
-      <h3>Machine Type</h3>
+      <h3>Faciltiy Owner</h3>
       <h1 class="title">{{name}}</h1>
       <h3>Wallet Balance</h3>
       <h1 class="title">{{balance}}</h1>
-      <h3>Action</h3>
+      <h3>Road Ledger Network</h3>
       <h1 class="title">{{action}}</h1>
+      <h3>Road Users Connected</h3>
+      <h1 class="title">{{total}}</h1>
     </div>
   </div>
 </template>
@@ -21,9 +23,10 @@ export default {
   data() {
     return {
       payed: false,
-      name: 'Loading',
-      balance: 'Loading',
-      action: 'Loading',
+      name: 'Connected to Faciltiy Owener',
+      balance: '0 IOTA',
+      action: 'ONLINE',
+      total: '1 Road User connected',
       last_tx: 'Loading'
     }
   },
@@ -65,10 +68,10 @@ export default {
 
 <style >
 :root {
-  --akita-primary: #00b0f0;
-  --akita-secondary: #00fb92;
+  --akita-primary: #00ffff;
+  --akita-secondary: #696969f1;
   --akita-dark: #3b3838;
-  --akita-light: #f2f2f2;
+  --akita-light: #696969f1;
   --akita-blue: #00b0f0;
 }
 body {
