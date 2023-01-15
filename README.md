@@ -4,7 +4,7 @@
 
 ## How to Use
 
-**This is the applicaiton for the Facility Wallet being used**
+**This is the Road Ledger applicaiton which is deployed on at a Faciliy Owner and connects to network to support RUC**
 
 ## Usage
 
